@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="La-María, pastelería artesanal en Tehuacán, Puebla.">
+  <title>La-María | Pastelería artesanal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles/main.css">
+  <script src="src/data/catalog.js" defer></script>
+  <script src="src/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="brand-lockup">
+      <a class="brand" href="#inicio">La-María</a>
+      <span class="business-type">Pastelería artesanal</span>
+    </div>
+    <nav aria-label="Navegación principal">
+      <ul class="nav-list">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#promociones">Promociones</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#faq">Preguntas frecuentes</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section id="inicio" class="intro-section" aria-labelledby="home-title">
+      <picture class="hero-media" aria-hidden="true">
+        <source srcset="public/images/hero-pastel.webp" type="image/webp">
+        <img src="public/images/hero-pastel.jpg" alt="Pastel de celebración decorado con crema y frutos rojos." width="1920" height="1080" fetchpriority="high">
+      </picture>
+      <div class="hero-content">
+        <p class="location">Pastelería artesanal · Tehuacán, Puebla</p>
+        <h1 id="home-title">Momentos especiales merecen un sabor especial.</h1>
+        <p class="intro">Repostería artesanal para acompañar cumpleaños, reuniones y celebraciones.</p>
+        <div class="hero-actions">
+          <a id="hero-whatsapp" class="button button-primary" href="#contacto" target="_blank" rel="noopener noreferrer">Pedir por WhatsApp</a>
+          <a class="button button-secondary" href="#productos">Descubrir productos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="content-section" aria-labelledby="about-title">
+      <p class="section-kicker">Nuestra esencia</p>
+      <div class="about-layout">
+        <h2 id="about-title">Hecho con cuidado para compartir.</h2>
+        <div>
+          <p>La-María es una pastelería artesanal de Tehuacán que prepara pasteles y repostería para cumpleaños, reuniones y ocasiones especiales. Cuidamos la presentación y cada detalle para acompañar momentos que merecen celebrarse.</p>
+          <ul class="values-list" aria-label="Valores de La-María">
+            <li>Calidez</li>
+            <li>Tradición</li>
+            <li>Creatividad</li>
+            <li>Cuidado artesanal</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-section" aria-labelledby="featured-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Favoritos de la casa</p>
+          <h2 id="featured-title">Un antojo para cada celebración.</h2>
+        </div>
+        <a class="text-link" href="#productos">Ver catálogo</a>
+      </div>
+      <ul class="featured-list">
+        <li>
+          <span class="featured-category">Pasteles</span>
+          <h3>Pastel Chocolate María</h3>
+          <p>$480 MXN</p>
+        </li>
+        <li>
+          <span class="featured-category">Postres</span>
+          <h3>Cheesecake de Frutos Rojos</h3>
+          <p>$450 MXN</p>
+        </li>
+        <li>
+          <span class="featured-category">Cupcakes</span>
+          <h3>Cupcakes para Celebración</h3>
+          <p>$300 MXN / 12 pzas</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="productos" class="catalog-section" aria-labelledby="products-title">
+      <div class="catalog-heading">
+        <p class="section-kicker">El catálogo</p>
+        <h2 id="products-title">Algo rico para cada ocasión.</h2>
+        <p>Elige una categoría y cuéntanos qué te gustaría pedir.</p>
+      </div>
+      <div class="category-filters" role="group" aria-label="Filtrar productos por categoría">
+        <button class="filter-button" type="button" data-category="Todos" aria-pressed="true">Todos</button>
+        <button class="filter-button" type="button" data-category="Pasteles" aria-pressed="false">Pasteles</button>
+        <button class="filter-button" type="button" data-category="Cupcakes" aria-pressed="false">Cupcakes</button>
+        <button class="filter-button" type="button" data-category="Galletas" aria-pressed="false">Galletas</button>
+        <button class="filter-button" type="button" data-category="Postres" aria-pressed="false">Postres</button>
+        <button class="filter-button" type="button" data-category="Especiales" aria-pressed="false">Especiales</button>
+      </div>
+      <p id="product-count" class="product-count" aria-live="polite">Cargando productos...</p>
+      <ul id="product-grid" class="product-grid" aria-label="Catálogo de productos"></ul>
+      <noscript><p>Activa JavaScript para consultar el catálogo y preparar tu pedido por WhatsApp.</p></noscript>
+    </section>
+
+    <section id="promociones" class="promotions-section" aria-labelledby="promotions-title">
+      <div class="catalog-heading">
+        <p class="section-kicker">Para celebrar</p>
+        <h2 id="promotions-title">Un detalle dulce para compartir.</h2>
+        <p>Pregunta por disponibilidad y condiciones al hacer tu pedido.</p>
+      </div>
+      <div id="promotion-grid" class="promotion-grid"></div>
+    </section>
+
+    <section id="galeria" class="gallery-section" aria-labelledby="gallery-title">
+      <div class="catalog-heading">
+        <p class="section-kicker">Detalles artesanales</p>
+        <h2 id="gallery-title">Un vistazo a algo dulce.</h2>
+        <p>Ideas de productos y acabados para tus próximas celebraciones.</p>
+      </div>
+      <p class="gallery-note">Fotografías ilustrativas de referencia.</p>
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <picture>
+            <source srcset="public/images/productos/pasteles.webp" type="image/webp">
+            <img src="public/images/productos/pasteles.jpg" alt="Pastel de celebración decorado con crema y frutos rojos." width="600" height="600" loading="lazy" decoding="async">
+          </picture>
+          <figcaption>Pasteles para compartir</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <picture>
+            <source srcset="public/images/productos/cupcakes.webp" type="image/webp">
+            <img src="public/images/productos/cupcakes.jpg" alt="Cupcakes decorados con crema." width="600" height="600" loading="lazy" decoding="async">
+          </picture>
+          <figcaption>Cupcakes para celebrar</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <picture>
+            <source srcset="public/images/productos/galletas.webp" type="image/webp">
+            <img src="public/images/productos/galletas.jpg" alt="Galletas artesanales recién horneadas." width="600" height="600" loading="lazy" decoding="async">
+          </picture>
+          <figcaption>Galletas artesanales</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <picture>
+            <source srcset="public/images/productos/postres.webp" type="image/webp">
+            <img src="public/images/productos/postres.jpg" alt="Postre artesanal decorado con fruta." width="600" height="600" loading="lazy" decoding="async">
+          </picture>
+          <figcaption>Postres para compartir</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <picture>
+            <source srcset="public/images/productos/especiales.webp" type="image/webp">
+            <img src="public/images/productos/especiales.jpg" alt="Pastel decorado para una celebración especial." width="600" height="600" loading="lazy" decoding="async">
+          </picture>
+          <figcaption>Diseños para ocasiones especiales</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="faq" class="faq-section" aria-labelledby="faq-title">
+      <div class="catalog-heading">
+        <p class="section-kicker">Información útil</p>
+        <h2 id="faq-title">Preguntas frecuentes</h2>
+        <p>Resolvemos tus dudas sobre productos, pedidos y entregas.</p>
+      </div>
+      <div class="faq-policy-grid">
+        <div class="faq-list">
+          <details>
+            <summary>¿Manejan productos aptos para alergias o restricciones alimentarias?</summary>
+            <p>Sí, contamos con opciones sin gluten y bajas en azúcar bajo pedido previo. Nuestros productos pueden contener trazas de nueces, lácteos y huevo; si tienes alguna alergia, indícanoslo al cotizar para confirmar disponibilidad.</p>
+          </details>
+          <details>
+            <summary>¿Puedo recoger mi pedido en tienda o hacen entrega a domicilio?</summary>
+            <p>Ambas opciones están disponibles. La recolección es en nuestra ubicación en el Centro de Tehuacán; la entrega a domicilio tiene un costo adicional según la distancia y debe solicitarse al confirmar el pedido.</p>
+          </details>
+          <details>
+            <summary>¿Hacen entregas fuera del centro de Tehuacán?</summary>
+            <p>Sí, realizamos entregas dentro y fuera del centro de la ciudad. El costo de envío varía según la zona; consúltanos la disponibilidad y tarifa para tu domicilio al momento de cotizar.</p>
+          </details>
+          <details>
+            <summary>¿Cómo debo conservar mi pastel una vez entregado?</summary>
+            <p>Recomendamos mantener el pastel refrigerado y consumirlo dentro de las primeras 48-72 horas para conservar frescura y sabor. Sácalo del refrigerador 15-20 minutos antes de servir.</p>
+          </details>
+          <details>
+            <summary>¿Cómo sé si mi pedido fue confirmado?</summary>
+            <p>Tu pedido queda confirmado una vez que recibimos el anticipo correspondiente (50%) y te enviamos un mensaje de confirmación por WhatsApp con los detalles y la fecha de entrega.</p>
+          </details>
+          <details>
+            <summary>¿Qué métodos de pago aceptan?</summary>
+            <p>Efectivo en tienda, transferencia bancaria y tarjeta de débito/crédito, sujeto a disponibilidad de terminal en el establecimiento.</p>
+          </details>
+        </div>
+        <aside class="policy-panel" aria-labelledby="policy-title">
+          <p class="section-kicker">Antes de ordenar</p>
+          <h3 id="policy-title">Políticas de pedido</h3>
+          <h4>Anticipación</h4>
+          <ul>
+            <li>Catálogo regular: mínimo 48 horas (2 días hábiles).</li>
+            <li>Pasteles personalizados: mínimo 5 días hábiles.</li>
+            <li>Mesa de postres y Paquete Celebración: mínimo 10 días hábiles.</li>
+          </ul>
+          <h4>Anticipo y pago</h4>
+          <p>Se requiere 50% de anticipo para confirmar; el resto se liquida contra entrega o recolección. Aceptamos efectivo, transferencia y tarjeta, sujeto a disponibilidad de terminal.</p>
+          <h4>Cambios y cancelaciones</h4>
+          <ul>
+            <li>Se permite un cambio de fecha sin costo, avisando con al menos 5 días de anticipación y sujeto a disponibilidad.</li>
+            <li>Con más de 5 días de anticipación, se reembolsa el 50% del anticipo.</li>
+            <li>Con menos de 48 horas, el anticipo no es reembolsable.</li>
+          </ul>
+          <p class="policy-note">Para cancelaciones entre 48 horas y 5 días antes del evento, el anticipo no es reembolsable.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact-section" aria-labelledby="contact-title">
+      <div class="catalog-heading">
+        <p class="section-kicker">Estamos para atenderte</p>
+        <h2 id="contact-title">Hablemos de tu próxima celebración.</h2>
+        <p>Estamos en el Centro de Tehuacán, Puebla, México.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-details">
+          <dl class="contact-list">
+            <div>
+              <dt>Teléfono</dt>
+              <dd><a id="contact-phone" href="tel:+522381234567">238 123 4567</a></dd>
+            </div>
+            <div>
+              <dt>WhatsApp</dt>
+              <dd><a id="contact-whatsapp" href="#contacto" target="_blank" rel="noopener noreferrer">238 123 4567</a></dd>
+            </div>
+            <div>
+              <dt>Correo</dt>
+              <dd><a id="contact-email" href="mailto:hola@lamaria-pasteleria.mx">hola@lamaria-pasteleria.mx</a></dd>
+            </div>
+            <div>
+              <dt>Horario</dt>
+              <dd>Lunes a sábado: 10:00 a 19:00 h<br>Domingo: 10:00 a 15:00 h</dd>
+            </div>
+          </dl>
+          <div class="social-block">
+            <h3>Redes sociales</h3>
+            <ul class="social-list">
+              <li>Facebook: La María Pastelería</li>
+              <li>Instagram: @lamaria.pasteleria</li>
+              <li>TikTok: @lamaria.pasteleria</li>
+            </ul>
+            <p class="policy-note">Perfiles de referencia por confirmar.</p>
+          </div>
+        </div>
+        <div class="map-panel">
+          <iframe title="Mapa de referencia del Centro de Tehuacán, Puebla" src="https://maps.google.com/maps?q=Centro%20de%20Tehuac%C3%A1n%2C%20Puebla&z=15&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          <p class="policy-note">Ubicación de referencia: Centro de Tehuacán, Puebla, México. No se proporcionó calle ni número.</p>
+        </div>
+      </div>
+      <div class="contact-form-area">
+        <h3>Cuéntanos qué necesitas</h3>
+        <form id="contact-form" class="contact-form">
+          <label for="contact-name">Nombre
+            <input id="contact-name" name="name" type="text" autocomplete="name" required>
+          </label>
+          <label for="contact-message">Mensaje
+            <textarea id="contact-message" name="message" rows="5" required></textarea>
+          </label>
+          <button class="button button-primary" type="submit">Continuar por WhatsApp</button>
+        </form>
+        <p class="privacy-note">El sitio no almacena tus datos; el mensaje se compartirá por WhatsApp cuando confirmes su envío.</p>
+        <p id="contact-form-status" class="form-status" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#inicio">La-María</a>
+    <p>&copy; <span id="current-year"></span> La-María · Tehuacán, Puebla</p>
+  </footer>
+</body>
+</html>

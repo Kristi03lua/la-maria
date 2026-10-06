@@ -1,0 +1,397 @@
+DATOS DEL PROYECTO
+
+Pastelería "La-María"
+
+> **Tipo de documento:** Especificación de Datos de Negocio y Requerimientos Front-End
+> **Proyecto:** Sitio web Front-End de la Pastelería "La María"
+> **Estado:** Proyecto académico — Asignatura Desarrollo de Aplicaciones
+> **Versión:** 1.1
+> **Idioma:** Español
+
+
+1. IDENTIFICACIÓN DEL NEGOCIO
+
+1.1 Nombre comercial
+
+**La-María**
+
+ 1.2 Tipo de negocio
+
+**Pastelería artesanal**
+
+
+2. DESCRIPCIÓN DEL NEGOCIO
+
+"La-María" es una pastelería artesanal dedicada a la elaboración de pasteles y productos de repostería para celebraciones y ocasiones especiales.
+
+El negocio busca ofrecer productos con una presentación cuidada, variedad de opciones y una experiencia cercana para sus clientes.
+
+La propuesta digital estará orientada principalmente a:
+
+Presentar la pastelería e identidad de marca.
+
+Mostrar su catálogo visual categorizado.
+
+Presentar productos destacados y promociones.
+
+Facilitar la solicitud de cotizaciones e iniciación de pedidos directamente vía WhatsApp.
+
+Facilitar el contacto y ubicación del establecimiento.
+
+Mostrar fotografías de productos, detalles artesanales y celebraciones.
+
+3. PROPUESTA DE VALOR
+
+Propuesta de valor simulada
+
+**"Momentos especiales merecen un sabor especial."**
+
+La María busca combinar repostería artesanal, presentación cuidada y atención cercana para acompañar cumpleaños, reuniones familiares, celebraciones y otros momentos especiales.
+
+
+4. PÚBLICO OBJETIVO
+
+### 4.1 Jóvenes: 
+Personas interesadas en pasteles, cupcakes, postres y productos para celebraciones.
+
+### 4.2 Adultos:
+Personas que buscan adquirir productos de repostería para eventos personales, familiares o sociales.
+
+### 4.3 Familias
+Familias que requieren pasteles y postres para cumpleaños, reuniones y celebraciones.
+
+### 4.4 Personas que buscan productos para celebraciones
+Usuarios que necesitan consultar opciones, conocer productos y solicitar una cotización.
+
+### 4.5 Personas interesadas en repostería
+Usuarios interesados en conocer los productos, el trabajo artesanal y la identidad de la pastelería.
+
+
+5. NECESIDAD DEL NEGOCIO
+
+La María necesita una presencia digital que permita presentar de manera clara y atractiva:
+
+* quién es el negocio;
+* qué productos ofrece;
+* cuáles son sus productos destacados;
+* qué promociones tiene;
+* cómo contactar al negocio;
+* cómo solicitar información o una cotización.
+
+La página funcionará como un medio de presentación y catálogo visual.
+
+6. OBJETIVO DEL SITIO WEB
+
+Objetivo general
+
+Crear una página web moderna, cálida, minimalista, elegante, responsiva y accesible que represente digitalmente a la pastelería "La María".
+
+Objetivos específicos
+
+1. Presentar la identidad de La-María.
+2. Mostrar el catálogo de productos organizado por categorías.
+3. Destacar productos de temporada y promociones.
+4. Implementar botones de interacción directa a WhatsApp preformateados para agilizar pedidos y cotizaciones sin necesidad de un carrito de compras.
+5. Facilitar información clara de contacto, ubicación y horarios.
+6. Establecer preguntas frecuentes y políticas de pedido transparentes para el cliente.
+
+7. IDENTIDAD DE MARCA
+
+## 7.1 Personalidad de marca
+
+Calidez, cercanía, elegancia, confianza, tradición, creatividad y cuidado artesanal.
+
+## 7.2 Estilo de comunicación
+
+Lenguaje cercano, amable, claro, profesional y positivo. Evitar tecnicismos y saturación comercial.
+
+
+8. PALETA VISUAL PROPUESTA
+
+Color principal
+Lila
+HEX: `#6A5492`
+
+Uso sugerido:
+botones principales;
+títulos destacados;
+elementos de navegación;
+detalles de identidad.
+
+Color secundario
+Verde
+HEX: `#07AE8B`
+
+Uso sugerido:
+llamadas a la acción;
+elementos secundarios;
+estados activos;
+detalles decorativos.
+
+Color de fondo
+Blanco
+HEX: `#FFFFFF`
+
+Uso:
+fondo principal;
+tarjetas;
+espacios de descanso visual.
+
+Color de texto
+Gris oscuro
+HEX sugerido: `#343434`
+
+Uso:
+ textos;
+ descripciones;
+ información general.
+
+Color de apoyo
+Gris claro
+HEX sugerido: `#F5F5F5`
+
+Uso:
+ fondos secundarios;
+ secciones;
+ separación visual.
+
+
+# TIPOGRAFÍA
+
+## Encabezados
+
+Títulos y Encabezados: Playfair Display (Serif, elegante, artesanal).
+
+Texto General y UI: Inter (Sans-serif, legible, moderna).
+
+9. CATEGORÍAS DE PRODUCTOS
+
+El catálogo de La-María deberá organizarse en las siguientes categorías:
+
+1. Pasteles
+2. Cupcakes
+3. Galletas
+4. Postres
+5. Especiales
+
+
+# 9.1 CATÁLOGO  
+
+#Pasteles:
+*Pastel Vainilla de la Casa: $420 MXN
+*Pastel Chocolate María: $480 MXN
+*Pastel Tres Leches: $450 MXN
+*Pastel Frutos Rojos: $520 MXN
+
+#Cupcakes:
+*Cupcake Vainilla: $35 MXN/pza
+*Cupcake Chocolate: $38 MXN/pza
+*Cupcakes para Celebración: $300 MXN / 12 pzas
+
+#Galletas:
+*Galletas de Mantequilla: $180 MXN / paquete
+*Galletas Decoradas: $280 MXN / paquete
+
+#Postres:
+*Cheesecake de Frutos Rojos: $450 MXN
+*Brownie de Chocolate: $45 MXN/pza
+*Mini Postres para Eventos: $350 MXN / 12 pzas
+
+#Especiales (Bajo Cotización):
+*Pastel Personalizado
+*Mesa de Postres
+*Paquete Celebración
+
+
+# 9.2 PROMOCIONES 
+
+1. Dulce Cumpleaños: Al adquirir un pastel de celebración, precio especial en docena de cupcakes.
+2. Sabor de Temporada: Producto especial por tiempo limitado.
+3. Paquete Familiar: Pastel + galletas + mini postres a precio preferencial.
+
+10 ESTRUCTURA DE INTERACCIÓN 
+
+#10.1 Mensaje predeterminado para productos estándar (catálogo)
+
+Este es el texto base que se enviará automáticamente al hacer clic en el botón "Pedir/Cotizar por WhatsApp" desde una tarjeta de producto del catálogo regular (pasteles, cupcakes, galletas, postres):
+
+```
+¡Hola La-María! 🍰
+Me interesa el siguiente producto:
+
+Producto: {nombre_producto}
+Precio: {precio}
+Cantidad: {cantidad_sugerida}
+Fecha estimada del evento: (indícame la fecha aquí)
+
+Quedo al pendiente de la confirmación. ¡Gracias!
+```
+
+**Ejemplo real aplicado** (Pastel Chocolate María):
+
+```
+¡Hola La-María! 🍰
+Me interesa el siguiente producto:
+
+Producto: Pastel Chocolate María
+Precio: $480 MXN
+Cantidad: 1 pastel
+Fecha estimada del evento: (indícame la fecha aquí)
+
+Quedo al pendiente de la confirmación. ¡Gracias!
+```
+
+**Enlace generado (ejemplo, con número de la tienda 238 123 4567 → 5212381234567):**
+
+```
+https://wa.me/5212381234567?text=%C2%A1Hola%20La-Mar%C3%ADa!%20%F0%9F%8D%B0%0AMe%20interesa%20el%20siguiente%20producto%3A%0A%0AProducto%3A%20Pastel%20Chocolate%20Mar%C3%ADa%0APrecio%3A%20%24480%20MXN%0ACantidad%3A%201%20pastel%0AFecha%20estimada%20del%20evento%3A%20(ind%C3%ADcame%20la%20fecha%20aqu%C3%AD)%0A%0AQuedo%20al%20pendiente%20de%20la%20confirmaci%C3%B3n.%20%C2%A1Gracias!
+```
+
+En el Front-End, este enlace debe generarse dinámicamente por producto usando JavaScript y `encodeURIComponent()`, sustituyendo `{nombre_producto}`, `{precio}` y `{cantidad_sugerida}` según los datos de cada tarjeta.
+
+#10.2 Flujo para Productos Bajo Cotización (Especiales)
+
+Para **Pastel Personalizado**, **Mesa de Postres** y **Paquete Celebración**, el mensaje debe solicitar los datos clave que el equipo de La-María necesita para cotizar (número de personas, temática, fecha del evento):
+
+```
+¡Hola La-María! 🎉
+Quiero cotizar un producto especial:
+
+Producto de interés: {nombre_producto_especial}
+Número de personas / porciones: 
+Temática o estilo deseado: 
+Fecha del evento: 
+Presupuesto aproximado (opcional): 
+
+Quedo atento(a) a su respuesta. ¡Gracias!
+```
+
+**Ejemplo real aplicado (Mesa de Postres):**
+
+```
+¡Hola La-María! 🎉
+Quiero cotizar un producto especial:
+
+Producto de interés: Mesa de Postres
+Número de personas / porciones: (indícalo aquí)
+Temática o estilo deseado: (indícalo aquí)
+Fecha del evento: (indícala aquí)
+Presupuesto aproximado (opcional): 
+
+Quedo atento(a) a su respuesta. ¡Gracias!
+```
+
+A diferencia del flujo estándar (10.1), este mensaje **no incluye precio fijo**, ya que estos productos se cotizan de forma personalizada según los datos proporcionados por el cliente.
+
+11. POLÍTICAS DE SERVICIO Y REGLAS DE NEGOCIO
+
+*(Nota: los siguientes valores son una propuesta razonable basada en estándares comunes de la industria repostera para proyectos académicos. Ajústalos si el negocio simulado maneja otras políticas.)*
+
+#11.1 Tiempos de Anticipación para Pedidos
+
+> **Pasteles y productos del catálogo regular:** Mínimo 48 horas (2 días hábiles) de anticipación.
+
+> **Pasteles personalizados:** Mínimo 5 días hábiles de anticipación.
+
+> **Mesas de postres y Paquete Celebración:** Mínimo 10 días hábiles de anticipación (por la logística de montaje y variedad de productos).
+
+#11.2 Anticipos y Métodos de Pago
+
+> **Porcentaje de anticipo para confirmar pedido:** 50% del total al momento de confirmar el pedido; el 50% restante se liquida contra entrega o recolección.
+
+> **Métodos de pago aceptados:** Efectivo en tienda, transferencia bancaria y tarjeta de débito/crédito (sujeto a disponibilidad de terminal en el establecimiento).
+
+#11.3 Cambios y Cancelaciones
+
+> **Cambio de fecha:** Se permite reprogramar el pedido una sola vez sin costo adicional, siempre que se notifique con al menos 5 días de anticipación a la fecha original y esté sujeto a disponibilidad.
+
+> **Cancelación con reembolso parcial:** Si se cancela con más de 5 días de anticipación, se reembolsa el 50% del anticipo entregado.
+
+> **Cancelación sin reembolso:** Si se cancela con menos de 48 horas de anticipación, el anticipo no es reembolsable (cubre insumos ya adquiridos).
+
+12. PREGUNTAS FRECUENTES (FAQ)
+
+**1. ¿Manejan productos aptos para alergias o restricciones alimentarias?**
+Sí, contamos con opciones sin gluten y bajas en azúcar bajo pedido previo. Nuestros productos pueden contener trazas de nueces, lácteos y huevo; si tienes alguna alergia, indícanoslo al cotizar para confirmar disponibilidad.
+
+**2. ¿Puedo recoger mi pedido en tienda o hacen entrega a domicilio?**
+Ambas opciones están disponibles. La recolección es en nuestra ubicación en el Centro de Tehuacán; la entrega a domicilio tiene un costo adicional según la distancia y debe solicitarse al confirmar el pedido.
+
+**3. ¿Hacen entregas fuera del centro de Tehuacán?**
+Sí, realizamos entregas dentro y fuera del centro de la ciudad. El costo de envío varía según la zona; consúltanos la disponibilidad y tarifa para tu domicilio al momento de cotizar.
+
+**4. ¿Cómo debo conservar mi pastel una vez entregado?**
+Recomendamos mantener el pastel refrigerado y consumirlo dentro de las primeras 48-72 horas para conservar frescura y sabor. Sácalo del refrigerador 15-20 minutos antes de servir.
+
+**5. ¿Cómo sé si mi pedido fue confirmado?**
+Tu pedido queda confirmado una vez que recibimos el anticipo correspondiente (50%) y te enviamos un mensaje de confirmación por WhatsApp con los detalles y la fecha de entrega.
+
+**6. ¿Qué métodos de pago aceptan?**
+Efectivo en tienda, transferencia bancaria y tarjeta de débito/crédito (sujeto a disponibilidad de terminal).
+
+13. ESPECIFICACIONES TÉCNICAS Y MEDIOS FRONT-END
+
+##13.1 Estándar de Imágenes
+
+1. **Formato recomendado:** WebP como formato principal (mejor compresión y calidad), con JPEG como respaldo mediante `<picture>` para navegadores antiguos.
+
+2. **Peso máximo por imagen:**
+   - Tarjetas de catálogo (Productos, Promociones): 150 KB máximo.
+   - Imágenes de Galería (mayor resolución, detalle): 250-300 KB máximo.
+   - Imagen de Hero/portada (Inicio): 300-400 KB máximo (por ser una sola imagen grande, no repetida).
+
+3. **Dimensiones recomendadas:**
+   - Tarjeta de producto (catálogo): 600×600 px (relación 1:1).
+   - Imagen de galería/detalle: 1200×1200 px máximo.
+   - Imagen Hero (Inicio): 1920×1080 px máximo, comprimida.
+
+4. **Compresión:** calidad 70-80%, suficiente para verse bien en pantalla sin penalizar el tiempo de carga.
+
+5. **Carga diferida:** todas las imágenes fuera del primer scroll (catálogo, galería) deben usar `loading="lazy"` en la etiqueta `<img>` para no bloquear el renderizado inicial de la página.
+
+6. **Texto Alternativo (Alt Text):** Formato descriptivo obligatorio para accesibilidad.
+   Ejemplo: "Pastel de chocolate decorado con crema y frutos rojos."
+   Ejemplo aplicado al catálogo: "Cheesecake de frutos rojos con topping de mermelada casera."
+
+#14. INFORMACIÓN GENERAL DEL NEGOCIO
+> **Teléfono:** 238 123 4567
+> **WhatsApp:** 238 123 4567
+> **Correo electrónico:** hola@lamaria-pasteleria.mx
+> **Ubicación:** Centro de Tehuacán, Puebla, México.
+#Horarios de atención:
+> **Lunes a Sábado:** 10:00 a 19:00 h
+> **Domingo:** 10:00 a 15:00 h
+
+#Redes Sociales (Placeholders):
+
+> **Facebook:** La María Pastelería
+> **Instagram:** @lamaria.pasteleria
+> **TikTok:** @lamaria.pasteleria
+
+#15. NAVEGACIÓN Y ESTRUCTURA DEL SITIO
+La María (Sitio Web Front-End)
+│
+├── Inicio (Hero section, propuesta de valor, destacados, CTA WhatsApp)
+├── Nosotros (Historia, Misión, Visión, Valores)
+├── Productos (Catálogo por categorías + botón directo a WhatsApp)
+├── Promociones (Ofertas de temporada y paquetes)
+├── Galería (Fotos de productos, acabados y eventos)
+├── Preguntas Frecuentes & Políticas (FAQ, tiempos de pedido)
+└── Contacto (Formulario Front-End, mapa, horarios, redes)
+
+
+#16. CHECKLIST DE ENTREGABLE 
+
+##Marca con una [X] los puntos completados en  documento final:
+
+[X] Mensaje preformateado de WhatsApp definido para productos estándar.
+
+[X] Mensaje preformateado de WhatsApp definido para cotizaciones especiales.
+
+[X] Tiempos de anticipación de pedidos establecidos.
+
+[X] Políticas de anticipo y cancelación redactadas.
+
+[X] Sección de Preguntas Frecuentes (FAQ) completada con al menos 5 preguntas.
+
+[X] Especificaciones de formato y peso de imágenes definidas para el Front-End.
